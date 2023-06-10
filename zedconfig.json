@@ -4,7 +4,7 @@
   "zedlimit": 0,
   "plantoperatingpercentage":100,
   "resetzed": "n",
-  "zedbasedon": "load",
+  "zedbasedon": "grid",
   "zedmeter": [
     {
       "zedmeterid": 3,
