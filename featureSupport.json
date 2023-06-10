@@ -1,9 +1,11 @@
 {
+ 
+  "deviceType": "solar",
   "pins": [17,16],
-  "customername":"olyquest",
+  "customername":"mvmschool",
   "ftmodbus": "y",
   "ftjson": "n",
-  "ftzed": "n",
+  "ftzed": "y",
   "interval": 10,
   "ftmqttcontrol": "n",
   "ftbtcontrol": "n"

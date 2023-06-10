@@ -1,164 +1,84 @@
 {
   "inverters": [
     {
-      "name": "Greenitech-inv1",
+      "name": "mvm in1",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 4,
-      "slaveIp" : "192.168.1.138",
-      "baudRate": 9600,
-      "dataBits": 8,
-      "stopBits": 1,
-      "parity": "none",
-   "registers": [
-        {
-          "start": 1071,
-          "count": 8
-        },
-        {
-          "start": 53247,
-          "count": 10
-        },
-        {
-          "start": 40994,
-          "count": 1
-        },
-        {
-          "start": 2047,
-          "count": 92
-        },
-        {
-          "start": 2495,
-          "count": 12
-        },
-        {
-          "start": 3071,
-          "count": 20
-        },
-        {
-          "start": 45055,
-          "count": 37
-        },
-        {
-          "start": 49151,
-          "count": 16
-        },
-        {
-        "start": 2049,
-                  "count": 58
-        },
-        {
-        "start": 2111,
-                  "count": 24
-        },
-        {
-        "start": 791,
-                  "count": 3
-        },
-        {
-        "start": 40974,
-                  "count": 8
-        },
-        {
-        "start": 53775,
-                  "count": 64
-        },
-        {
-        "start": 1087,
-                  "count": 11
-        },
-        {
-        "start": 40994,
-                  "count": 1
-        }
-
-  ]
-},
-    {
-      "name": "Greenitech-inv2",
-      "slaveId": 2,
-      "slaveType":"RTU",
-      "functionCode": 4,
-      "slaveIp" : "192.168.1.138",
+      "slaveIp" : "192.168.1.138:502",
       "baudRate": 9600,
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
       "registers": [
         {
-          "start": 1071,
-          "count": 8
-        },
-        {
-          "start": 53247,
-          "count": 10
-        },
-        {
-          "start": 40994,
-          "count": 1
-        },
-        {
-          "start": 2047,
-          "count": 92
-        },
-        {
-          "start": 2495,
-          "count": 12
-        },
-        {
-          "start": 3071,
-          "count": 20
-        },
-        {
-          "start": 45055,
-          "count": 37
-        },
-        {
-          "start": 49151,
-          "count": 16
-        },
-        {
-        "start": 2049,
-                  "count": 58
-        },
-        {
-        "start": 2111,
-                  "count": 24
-        },
-        {
-        "start": 791,
-                  "count": 3
-        },
-        {
-        "start": 40974,
-                  "count": 8
-        },
-        {
-        "start": 53775,
-                  "count": 64
-        },
-        {
-        "start": 1087,
-                  "count": 11
-        },
-        {
-        "start": 40994,
-                  "count": 1
+          "start": 0,
+          "count": 115
         }
-
   ]
 },
-{
-      "name": "Greenitech load meter",
-      "slaveId": 3,
+    {
+      "name": "mvm inv2",
+      "slaveId": 2,
       "slaveType":"RTU",
-      "functionCode": 3,
-      "slaveIp" : "192.168.1.138",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.138:502",
       "baudRate": 9600,
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
-       "registers": [
+      "registers": [
+        {
+          "start": 0,
+          "count": 115
+        }
+  ]
+},
+{
+      "name": "mvmInv1Ctrl",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 3,
+          "count": 1
+        }
+  ]
+},
+{
+      "name": "mvmInv2Ctrl",
+      "slaveId": 2,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 3,
+          "count": 1
+        }
+  ]
+},
+  {
+      "name": "mvm Grid Meter",
+      "slaveId": 3,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
         {
           "start": 2699,
           "count": 24
@@ -192,42 +112,6 @@
           "start": 3875,
           "count": 8
         }
-  ]
-},
- {
-      "name": "Greenitechzedctl",
-      "slaveId": 1,
-      "slaveType":"RTU",
-      "functionCode": 3,
-      "slaveIp" : "192.168.1.138",
-      "baudRate": 9600,
-      "dataBits": 8,
-      "stopBits": 1,
-      "parity": "none",
-      "registers": [
-        {
-          "start": 48511,
-          "count": 3
-        }
-
-  ]
-},
- {
-      "name": "Greenitechzedct2",
-      "slaveId": 2,
-      "slaveType":"RTU",
-      "functionCode": 3,
-      "slaveIp" : "192.168.1.138",
-      "baudRate": 9600,
-      "dataBits": 8,
-      "stopBits": 1,
-      "parity": "none",
-      "registers": [
-        {
-          "start": 48511,
-          "count": 3
-        }
-
   ]
 }
 ]

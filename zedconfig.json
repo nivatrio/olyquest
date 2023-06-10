@@ -1,10 +1,10 @@
 {
-  "zedcustomer" : "Greenitech zed",
-  "plantsize": 140,
+  "zedcustomer" : "MVMSchool",
+  "plantsize": 30,
   "zedlimit": 0,
   "plantoperatingpercentage":100,
-    "resetzed": "n",
-  "zedbasedon": "grid",
+  "resetzed": "n",
+  "zedbasedon": "load",
   "zedmeter": [
     {
       "zedmeterid": 3,
@@ -35,16 +35,16 @@
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
-      "invsize" : 70,
-      "activepowerctrl" :  48511,
+      "invsize" : 15,
+      "activepowerctrl" :  0,
       "activepowerctrlvalue" :  1,
       "functionCode": 3,
-      "activepower" : 49151,
-      "activepowerregcount" : 1,
+      "activepower" : 35,
+      "activepowerregcount" : 2,
       "invmultiplicationfactor": 1,
       "registers": [
         {
-          "start": 48512,
+          "start": 3,
           "count": 1
         }
       ]
@@ -57,16 +57,16 @@
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none",
-      "invsize" : 70,
-      "activepowerctrl" :  48511,
+      "invsize" : 15,
+      "activepowerctrl" :  0,
       "activepowerctrlvalue" :  1,
       "functionCode": 3,
-      "activepower" : 49151,
-      "activepowerregcount" : 1,
+      "activepower" : 35,
+      "activepowerregcount" : 2,
       "invmultiplicationfactor": 1,
       "registers": [
         {
-          "start": 48512,
+          "start": 3,
           "count": 1
         }
       ]
