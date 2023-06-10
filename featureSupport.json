@@ -2,7 +2,7 @@
  
   "deviceType": "solar",
   "pins": [17,16],
-  "customername":"mvmschool",
+  "customername":"olyquest",
   "ftmodbus": "y",
   "ftjson": "n",
   "ftzed": "y",
