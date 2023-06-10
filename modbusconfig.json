@@ -1,7 +1,7 @@
 {
   "inverters": [
     {
-      "name": "mvm in1",
+      "name": "olyquest-in1",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 4,
@@ -18,7 +18,7 @@
   ]
 },
     {
-      "name": "mvm inv2",
+      "name": "olyquest-inv2",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 4,
@@ -35,7 +35,7 @@
   ]
 },
 {
-      "name": "mvmInv1Ctrl",
+      "name": "olyquestInv1Ctrl",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -52,7 +52,7 @@
   ]
 },
 {
-      "name": "mvmInv2Ctrl",
+      "name": "olyquestInv2Ctrl",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -69,7 +69,7 @@
   ]
 },
   {
-      "name": "mvm Grid Meter",
+      "name": "olyquest Grid Meter",
       "slaveId": 3,
       "slaveType":"RTU",
       "functionCode": 3,
