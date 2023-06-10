@@ -1,0 +1,10 @@
+{
+  "pins": [17,16],
+  "customername":"Greenitech",
+  "ftmodbus": "y",
+  "ftjson": "n",
+  "ftzed": "n",
+  "interval": 10,
+  "ftmqttcontrol": "n",
+  "ftbtcontrol": "n"
+}
