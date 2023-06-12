@@ -5,7 +5,7 @@
   "customername":"olyquest",
   "ftmodbus": "y",
   "ftjson": "n",
-  "ftzed": "n",
+  "ftzed": "r",
   "interval": 10,
   "ftmqttcontrol": "n",
   "ftbtcontrol": "n"
