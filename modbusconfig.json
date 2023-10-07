@@ -27,7 +27,7 @@
 },
     {
       "name": "olyquest-inv2",
-      "slaveId": 2,
+      "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 4,
       "slaveIp" : "192.168.1.138:502",
@@ -38,7 +38,15 @@
       "registers": [
         {
           "start": 0,
-          "count": 115
+          "count": 45
+        },
+        {
+          "start": 47,
+          "count": 40
+        },
+        {
+          "start": 90,
+          "count": 25
         }
   ]
 },
