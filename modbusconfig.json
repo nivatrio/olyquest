@@ -13,7 +13,15 @@
       "registers": [
         {
           "start": 0,
-          "count": 115
+          "count": 45
+        },
+        {
+          "start": 47,
+          "count": 40
+        },
+        {
+          "start": 90,
+          "count": 25
         }
   ]
 },
