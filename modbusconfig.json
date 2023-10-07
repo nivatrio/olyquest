@@ -1,7 +1,7 @@
 {
   "inverters": [
     {
-      "name": "olyquest-in1",
+      "name": "olyquest-inv1",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 4,
