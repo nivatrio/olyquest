@@ -27,7 +27,7 @@
 },
     {
       "name": "olyquest-inv2",
-      "slaveId": 1,
+      "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 4,
       "slaveIp" : "192.168.1.138:502",
@@ -49,6 +49,40 @@
           "count": 25
         }
   ]
+},
+    {
+      "name": "olyquest-inv2",
+      "slaveId": 2,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 45,
+          "count": 8
+        }
+      ]
+},
+     {
+      "name": "olyquest-inv2",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 9600,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 45,
+          "count": 8
+        }
+      ]
 },
 {
       "name": "olyquestInv1Ctrl",
