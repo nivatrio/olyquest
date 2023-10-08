@@ -63,7 +63,7 @@
       "registers": [
         {
           "start": 45,
-          "count": 8
+          "count": 5
         }
       ]
 },
@@ -80,7 +80,7 @@
       "registers": [
         {
           "start": 45,
-          "count": 8
+          "count": 5
         }
       ]
 },
