@@ -51,7 +51,7 @@
   ]
 },
     {
-      "name": "olyquest-inv2",
+      "name": "olyquest-inv2-time",
       "slaveId": 2,
       "slaveType":"RTU",
       "functionCode": 3,
@@ -68,7 +68,7 @@
       ]
 },
      {
-      "name": "olyquest-inv2",
+      "name": "olyquest-inv1-time",
       "slaveId": 1,
       "slaveType":"RTU",
       "functionCode": 3,
