@@ -2,6 +2,7 @@
       "name": "olyquest",
       "deviceId": 1,
       "deviceType": "solar",
+         "debug": "y",
       "sltime" : 50,
       "lowtemp" : 20,
       "hightemp" : 40
