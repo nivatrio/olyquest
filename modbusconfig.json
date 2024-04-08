@@ -13,24 +13,8 @@
       "registers": [
         {
           "start": 0,
-          "count": 47
-        },
-        {
-          "start": 47,
-          "count": 40
-        },
-        {
-          "start": 90,
-          "count": 25
-        },
-          {
-          "start": 52,
-          "count": 5
-        },
-          {
-          "start": 37,
-          "count": 5
-        },
+          "count": 29
+        }
         
   ]
 },
